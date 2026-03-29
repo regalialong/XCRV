@@ -4,6 +4,7 @@
         "lokalise.i18n-ally",
         "dbaeumer.vscode-eslint",
         "oxc.oxc-vscode",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "SarbandAkray.rtl"
     ]
 }

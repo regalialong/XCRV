@@ -553,9 +553,9 @@ async function installVRCX() {
         return;
     }
 
-    // rename AppImage to VRCX.AppImage
+    // rename AppImage to XCRV.AppImage
     const currentName = path.basename(appImagePath);
-    const expectedName = 'VRCX.AppImage';
+    const expectedName = 'XCRV.AppImage';
     if (currentName !== expectedName) {
         const newPath = path.join(path.dirname(appImagePath), expectedName);
         try {
@@ -574,7 +574,7 @@ async function installVRCX() {
     }
 
     // ask to move AppImage to ~/Applications
-    const appImageHomePath = `${homePath}/Applications/VRCX.AppImage`;
+    const appImageHomePath = `${homePath}/Applications/XCRV.AppImage`;
     if (!hasAskedToMoveAppImage && appImagePath !== appImageHomePath) {
         const result = dialog.showMessageBoxSync(mainWindow, {
             type: 'question',

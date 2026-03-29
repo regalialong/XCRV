@@ -1,5 +1,5 @@
 {
-    "name": "VRCX",
+    "name": "XCRV",
     "private": true,
     "description": "Friendship management tool for VRChat",
     "keywords": [
@@ -10,7 +10,7 @@
         "url": "https://github.com/vrcx-team/VRCX/issues"
     },
     "license": "MIT",
-    "author": "VRCX Team",
+    "author": "XCRV Team",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/vrcx-team/VRCX.git"
@@ -115,16 +115,16 @@
         "npm": ">=11.5.0"
     },
     "build": {
-        "appId": "app.vrcx",
-        "productName": "VRCX",
-        "icon": "images/VRCX.png",
+        "appId": "app.xcrv",
+        "productName": "XCRV",
+        "icon": "images/XCRV.png",
         "files": [
             "build/html/**/*",
             "src-electron/*",
-            "images/VRCX.png",
-            "images/VRCX.ico",
-            "images/VRCX_notify.png",
-            "images/VRCX_notify.ico",
+            "images/XCRV.png",
+            "images/XCRV.ico",
+            "images/XCRV_notify.png",
+            "images/XCRV_notify.ico",
             "Version",
             "src-electron/libs/linux/libopenvr_api.so",
             ".no-updater"
@@ -167,18 +167,18 @@
             "output": "build"
         },
         "linux": {
-            "artifactName": "VRCX_Version.${ext}",
+            "artifactName": "XCRV_Version.${ext}",
             "target": [
                 "AppImage"
             ],
-            "icon": "images/VRCX.png",
+            "icon": "images/XCRV.png",
             "category": "Utility",
-            "executableName": "vrcx",
+            "executableName": "xcrv",
             "desktop": {
                 "entry": {
-                    "Name": "VRCX",
-                    "Comment": "Friendship management tool for VRChat",
-                    "Icon": "VRCX",
+                    "Name": "XCRV",
+                    "Comment": "tahCRV rof loot tnemeganam pihsdneirF",
+                    "Icon": "XCRV",
                     "Terminal": "false",
                     "Type": "Application",
                     "Categories": "Utility;Application;"
@@ -188,13 +188,14 @@
             "description": "Friendship management tool for VRChat"
         },
         "mac": {
-            "artifactName": "VRCX_Version.${ext}",
+            "artifactName": "XCRV_Version.${ext}",
             "target": [
                 "dmg"
             ],
-            "icon": "images/VRCX.png",
+            "icon": "images/XCRV.png",
             "category": "public.app-category.utilities",
-            "executableName": "VRCX"
+            "executableName": "XCRV"
         }
-    }
+    },
+    "version": "2026.02.11"
 }

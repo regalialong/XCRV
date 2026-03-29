@@ -1,14 +1,11 @@
 <div align="center">
 
-# ‮VRCX <img src="https://raw.githubusercontent.com/vrcx-team/VRCX/master/images/VRCX.ico" width="64" height="64"> </img>
+# ‮VRCX <img src="images/XCRV.png" width="64" height="64"> </img>
 
 [![VRCX Discord Invite](https://img.shields.io/discord/854071236363550763?color=%237289DA&logo=discord&logoColor=white&label=discord)](https://vrcx.app/discord)
 [![GitHub Workflow Status](https://github.com/vrcx-team/VRCX/actions/workflows/github_actions.yml/badge.svg)](https://github.com/vrcx-team/VRCX/actions/workflows/github_actions.yml)
 [![Downloads](https://img.shields.io/github/downloads/vrcx-team/VRCX/total?color=6451f1)](https://github.com/vrcx-team/VRCX/releases/latest)
 [![GitHub release](https://img.shields.io/github/release/vrcx-team/VRCX.svg)](https://github.com/vrcx-team/VRCX/releases/latest)
-
-
-
 
 | ‮**English** | ‮[Français](./README/README.fr.md) | ‮[日本語](./README/README.jp.md) | ‮[简体中文](./README/README.zh_CN.md) | ‮[Italiano](./README/README.it.md) | [Русский](./README/README.ru_RU.md) | ‮[Español](./README/README.es.md) | ‮[Polski](./README/README.pl.md) | ‮[ภาษาไทย](./README/README.th.md) | ‮[Magyar](./README/README.hu.md)
 
@@ -29,35 +26,35 @@
 <div align="left">
 
 - ‮ :family: Friend, world, and avatar list management
-  - ‮Manage your friends list, world/group/avatar lists outside of VRChat.
-  - ‮Monitor the activity of your friends and track their online status, locations, and avatars.
-  - Track friendship history including add dates, time spent together, and name changes.
-  - Save notes and memos to help remember how you met.
+    - ‮Manage your friends list, world/group/avatar lists outside of VRChat.
+    - ‮Monitor the activity of your friends and track their online status, locations, and avatars.
+    - Track friendship history including add dates, time spent together, and name changes.
+    - Save notes and memos to help remember how you met.
 - ‮ :bar_chart: Customizable Dashboard with widgets
-  - ‮Build personalized multi-panel layouts with Feed, GameLog, and Instance widgets.
-  - ‮Create multiple dashboards, each with configurable event filters and column visibility.
+    - ‮Build personalized multi-panel layouts with Feed, GameLog, and Instance widgets.
+    - ‮Create multiple dashboards, each with configurable event filters and column visibility.
 - ‮ :mag: Powerful search across all entities
-  - ‮Search for users, worlds, avatars, and groups, or paste IDs and URLs for direct access.
-  - ‮Quick Search provides instant client-side fuzzy search across your friends, avatars, worlds, and groups.
+    - ‮Search for users, worlds, avatars, and groups, or paste IDs and URLs for direct access.
+    - ‮Quick Search provides instant client-side fuzzy search across your friends, avatars, worlds, and groups.
 - ‮ :chart_with_upwards_trend: Activity Heatmap
-  - ‮Visualize a user's online activity patterns with a day-of-week × hour-of-day heatmap, including peak stats.
+    - ‮Visualize a user's online activity patterns with a day-of-week × hour-of-day heatmap, including peak stats.
 - ‮ :camera: Store world data in the pictures you take in-game, so you can remember that one world you took those cool pictures in like... 6 months ago!
 - ‮ :bell: Monitor/respond to notifications
-  - ‮You can send/receive invites and friend requests from VRCX as well as see the instance info of invites that you receive.
+    - ‮You can send/receive invites and friend requests from VRCX as well as see the instance info of invites that you receive.
 - ‮ :scroll: See stats/players for your current instance
 - ‮ :tv: See the links to videos that are playing in the world you're in, as well as various other logged data.
 - ‮ :performing_arts: Social Status Presets
-  - ‮Save and quickly apply status + status description combinations from the sidebar or user dialog.
+    - ‮Save and quickly apply status + status description combinations from the sidebar or user dialog.
 - ‮:rotating_light: VRChat Server Status
-  - ‮A status bar indicator and login page alert inform you of VRChat server issues and outages in real time.
+    - ‮A status bar indicator and login page alert inform you of VRChat server issues and outages in real time.
 - ‮ :bar_chart: Improved Discord Rich Presence
-  - ‮Display detailed instance information in Discord, including world thumbnail, name, player count, and a join button for public lobbies.
+    - ‮Display detailed instance information in Discord, including world thumbnail, name, player count, and a join button for public lobbies.
 - ‮:crystal_ball: VR Overlay with configurable live feed of all supported events/notifications
 - ‮ :outbox_tray: Upload and manage avatar/world images and details without Unity
 - ‮ :electric_plug: Automatically launch apps when you start VRChat
 - ‮ :skull: Automatically restart and join last instance when VRC crashes
 - ‮ :left_right_arrow: Export/import data
-  - ‮ Export friends list, avatar list, Discord names, notes, and favorite groups. Import favorite groups and group moderation bans.
+    - ‮ Export friends list, avatar list, Discord names, notes, and favorite groups. Import favorite groups and group moderation bans.
 
 ## ‮ Miscellaneous
 

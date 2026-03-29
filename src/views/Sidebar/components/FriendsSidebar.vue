@@ -47,7 +47,7 @@
                                                 <span
                                                     class="block truncate font-medium leading-[18px]"
                                                     :style="{ color: currentUser.$userColour }"
-                                                    >{{ currentUser.displayName }}</span
+                                                    >‮{{ currentUser.displayName }}</span
                                                 >
                                                 <Location
                                                     v-if="isGameRunning && !gameLogDisabled"
@@ -66,7 +66,7 @@
                                                     :link="false" />
 
                                                 <span v-else class="extra block truncate text-xs">{{
-                                                    currentUser.statusDescription
+                                                    ‮currentUser.statusDescription
                                                 }}</span>
                                             </div>
                                         </div>
@@ -118,8 +118,12 @@
                                                     :key="idx"
                                                     class="gap-2"
                                                     @click="applyStatusPreset(preset)">
-                                                    <i class="x-user-status" :class="presetStatusClass(preset.status)"></i>
-                                                    <span class="truncate max-w-[180px]">{{ getPresetDisplayText(preset) }}</span>
+                                                    <i
+                                                        class="x-user-status"
+                                                        :class="presetStatusClass(preset.status)"></i>
+                                                    <span class="truncate max-w-[180px]">{{
+                                                        getPresetDisplayText(preset)
+                                                    }}</span>
                                                 </ContextMenuItem>
                                             </ContextMenuSubContent>
                                         </ContextMenuSub>
@@ -147,7 +151,8 @@
                                             v-if="item.row.friend.state === 'online'"
                                             @click="friendRequestInvite(item.row.friend)">
                                             {{ t('dialog.user.actions.request_invite') }}
-                                            <ContextMenuShortcut v-if="isActionRecent(item.row.friend.id, 'Request Invite')">
+                                            <ContextMenuShortcut
+                                                v-if="isActionRecent(item.row.friend.id, 'Request Invite')">
                                                 <Clock class="size-3.5 text-muted-foreground" />
                                             </ContextMenuShortcut>
                                         </ContextMenuItem>
@@ -330,9 +335,7 @@
     });
 
     const visibleFavoriteOnlineFriends = computed(() => {
-        const filtered = allFavoriteOnlineFriends.value.filter((friend) =>
-            selectedFavoriteGroupIds.value.has(friend.id)
-        );
+        const filtered = allFavoriteOnlineFriends.value.filter((friend) => selectedFavoriteGroupIds.value.has(friend.id));
         return excludeSameInstance(filtered);
     });
 

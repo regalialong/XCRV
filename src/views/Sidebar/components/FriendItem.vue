@@ -18,17 +18,17 @@
                     v-if="!hideNicknames && friend.$nickName"
                     class="block truncate font-medium leading-[18px]"
                     :style="{ color: friend.ref.$userColour }">
-                    {{ friend.ref.displayName }} ({{ friend.$nickName }})
+                    ‮{{ friend.ref.displayName }} ({{ friend.$nickName }})
                 </span>
                 <span
                     v-else
                     class="block truncate font-medium leading-[18px]"
                     :style="{ color: friend.ref.$userColour }"
-                    >{{ friend.ref.displayName
+                    >‮{{ friend.ref.displayName
                     }}{{ isGroupByInstance && allFavoriteFriendIds.has(friend.id) ? ' ⭐' : '' }}</span
                 >
 
-                <span v-if="isFriendActiveOrOffline" class="block truncate text-xs">{{
+                <span v-if="isFriendActiveOrOffline" class="block truncate text-xs">‮{{
                     friend.ref.statusDescription
                 }}</span>
                 <template v-else>
@@ -56,7 +56,7 @@
             </div>
         </template>
         <template v-else-if="!friend.ref && !isRefreshFriendsLoading">
-            <span>{{ friend.name || friend.id }}</span>
+            <span>‮{{ friend.name || friend.id }}</span>
             <Button size="sm" variant="ghost" class="mr-1 w-6 h-6 text-xs" @click.stop="confirmDeleteFriend(friend.id)"
                 ><Trash2 class="h-4 w-4" />
             </Button>

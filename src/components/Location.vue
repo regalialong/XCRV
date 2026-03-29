@@ -13,7 +13,6 @@
                         </TooltipWrapper>
                     </template>
                     <template v-else>
-                        <div v-if="region" :class="['flags', 'mr-1.5', 'shrink-0', region]"></div>
                         <TooltipWrapper :content="tooltipContent" :disabled="tooltipDisabled" :delay-duration="300" side="top">
                             <div
                                 :class="locationClasses"
@@ -21,16 +20,17 @@
                                 @click="handleShowWorldDialog">
                                 <Spinner v-if="isTraveling" class="mr-1 shrink-0" />
                                 <span class="min-w-0 flex-1 truncate">
-                                    <span>{{ text }}</span>
+                                    <span>‮{{ text }}</span>
                                     <span v-if="showInstanceIdInLocation && instanceName" class="ml-1">{{
-                                        ` · #${instanceName}`
+                                        `‮ · #${instanceName}`
                                     }}</span>
                                     <span v-if="groupName" class="ml-0.5 cursor-pointer" @click.stop="handleShowGroupDialog">
-                                        ({{ groupName }})
+                                        ‮({{ groupName }})
                                     </span>
                                 </span>
                             </div>
                         </TooltipWrapper>
+                        <div v-if="region" :class="['flags', 'mr-1.5', 'shrink-0', region]"></div>
 
                         <TooltipWrapper v-if="isClosed" :content="closedTooltip" :disabled="disableTooltip">
                             <AlertTriangle class="inline-block ml-2 text-muted-foreground shrink-0" />

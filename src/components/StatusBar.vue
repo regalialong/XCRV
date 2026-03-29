@@ -546,7 +546,7 @@
 
     const wsTooltip = computed(() => {
         const state = wsState.connected ? t('status_bar.ws_connected') : t('status_bar.ws_disconnected');
-        return `WebSocket: ${state}`;
+        return `‮WebSocket: ${state}`;
     });
 
     const appUptimeText = computed(() => {
